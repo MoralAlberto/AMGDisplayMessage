@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3954BCD418D4B09300052AD9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3954BCD318D4B09300052AD9 /* background.png */; };
 		3985667F18C7BC6000DB2DB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3985667E18C7BC6000DB2DB1 /* Foundation.framework */; };
 		3985668118C7BC6000DB2DB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3985668018C7BC6000DB2DB1 /* CoreGraphics.framework */; };
 		3985668318C7BC6000DB2DB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3985668218C7BC6000DB2DB1 /* UIKit.framework */; };
@@ -22,6 +23,15 @@
 		398566A318C7BC6000DB2DB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3985668218C7BC6000DB2DB1 /* UIKit.framework */; };
 		398566AB18C7BC6000DB2DB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 398566A918C7BC6000DB2DB1 /* InfoPlist.strings */; };
 		398566AD18C7BC6000DB2DB1 /* AMGDisplayMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 398566AC18C7BC6000DB2DB1 /* AMGDisplayMessageTests.m */; };
+		398566B818C7CC9600DB2DB1 /* AMGDisplayMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 398566B718C7CC9600DB2DB1 /* AMGDisplayMessage.m */; };
+		39957D7018D5DC5900014FAA /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 39957D6C18D5DC5900014FAA /* error.png */; };
+		39957D7118D5DC5900014FAA /* advice.png in Resources */ = {isa = PBXBuildFile; fileRef = 39957D6D18D5DC5900014FAA /* advice.png */; };
+		39957D7218D5DC5900014FAA /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 39957D6E18D5DC5900014FAA /* success.png */; };
+		39957D7318D5DC5900014FAA /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 39957D6F18D5DC5900014FAA /* info.png */; };
+		39957D7918D5DD2F00014FAA /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39957D7518D5DD2F00014FAA /* info@2x.png */; };
+		39957D7A18D5DD2F00014FAA /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39957D7618D5DD2F00014FAA /* success@2x.png */; };
+		39957D7B18D5DD2F00014FAA /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39957D7718D5DD2F00014FAA /* error@2x.png */; };
+		39957D7C18D5DD2F00014FAA /* advice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39957D7818D5DD2F00014FAA /* advice@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3954BCD318D4B09300052AD9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		3985667B18C7BC6000DB2DB1 /* AMGDisplayMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMGDisplayMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3985667E18C7BC6000DB2DB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3985668018C7BC6000DB2DB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +66,16 @@
 		398566A818C7BC6000DB2DB1 /* AMGDisplayMessageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMGDisplayMessageTests-Info.plist"; sourceTree = "<group>"; };
 		398566AA18C7BC6000DB2DB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		398566AC18C7BC6000DB2DB1 /* AMGDisplayMessageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMGDisplayMessageTests.m; sourceTree = "<group>"; };
+		398566B618C7CC9600DB2DB1 /* AMGDisplayMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDisplayMessage.h; sourceTree = "<group>"; };
+		398566B718C7CC9600DB2DB1 /* AMGDisplayMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGDisplayMessage.m; sourceTree = "<group>"; };
+		39957D6C18D5DC5900014FAA /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		39957D6D18D5DC5900014FAA /* advice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = advice.png; sourceTree = "<group>"; };
+		39957D6E18D5DC5900014FAA /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		39957D6F18D5DC5900014FAA /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		39957D7518D5DD2F00014FAA /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		39957D7618D5DD2F00014FAA /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
+		39957D7718D5DD2F00014FAA /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		39957D7818D5DD2F00014FAA /* advice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "advice@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3954BCD518D4B0A300052AD9 /* AMGDisplayMessage */ = {
+			isa = PBXGroup;
+			children = (
+				398566B618C7CC9600DB2DB1 /* AMGDisplayMessage.h */,
+				398566B718C7CC9600DB2DB1 /* AMGDisplayMessage.m */,
+			);
+			name = AMGDisplayMessage;
+			sourceTree = "<group>";
+		};
 		3985667218C7BC6000DB2DB1 = {
 			isa = PBXGroup;
 			children = (
@@ -114,12 +144,15 @@
 		3985668418C7BC6000DB2DB1 /* AMGDisplayMessage */ = {
 			isa = PBXGroup;
 			children = (
+				3954BCD318D4B09300052AD9 /* background.png */,
 				3985668D18C7BC6000DB2DB1 /* AMGAppDelegate.h */,
 				3985668E18C7BC6000DB2DB1 /* AMGAppDelegate.m */,
 				3985669018C7BC6000DB2DB1 /* Main_iPhone.storyboard */,
 				3985669318C7BC6000DB2DB1 /* Main_iPad.storyboard */,
 				3985669618C7BC6000DB2DB1 /* AMGViewController.h */,
 				3985669718C7BC6000DB2DB1 /* AMGViewController.m */,
+				39957D7418D5DC5E00014FAA /* Resources */,
+				3954BCD518D4B0A300052AD9 /* AMGDisplayMessage */,
 				3985669918C7BC6000DB2DB1 /* Images.xcassets */,
 				3985668518C7BC6000DB2DB1 /* Supporting Files */,
 			);
@@ -153,6 +186,21 @@
 				398566A918C7BC6000DB2DB1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39957D7418D5DC5E00014FAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39957D7518D5DD2F00014FAA /* info@2x.png */,
+				39957D7618D5DD2F00014FAA /* success@2x.png */,
+				39957D7718D5DD2F00014FAA /* error@2x.png */,
+				39957D7818D5DD2F00014FAA /* advice@2x.png */,
+				39957D6C18D5DC5900014FAA /* error.png */,
+				39957D6D18D5DC5900014FAA /* advice.png */,
+				39957D6E18D5DC5900014FAA /* success.png */,
+				39957D6F18D5DC5900014FAA /* info.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +248,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AMG;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Moral;
 				TargetAttributes = {
 					3985669E18C7BC6000DB2DB1 = {
@@ -233,9 +281,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3985669518C7BC6000DB2DB1 /* Main_iPad.storyboard in Resources */,
+				39957D7A18D5DD2F00014FAA /* success@2x.png in Resources */,
+				3954BCD418D4B09300052AD9 /* background.png in Resources */,
+				39957D7B18D5DD2F00014FAA /* error@2x.png in Resources */,
+				39957D7918D5DD2F00014FAA /* info@2x.png in Resources */,
+				39957D7318D5DC5900014FAA /* info.png in Resources */,
+				39957D7018D5DC5900014FAA /* error.png in Resources */,
 				3985669A18C7BC6000DB2DB1 /* Images.xcassets in Resources */,
 				3985669218C7BC6000DB2DB1 /* Main_iPhone.storyboard in Resources */,
 				3985668918C7BC6000DB2DB1 /* InfoPlist.strings in Resources */,
+				39957D7118D5DC5900014FAA /* advice.png in Resources */,
+				39957D7218D5DC5900014FAA /* success.png in Resources */,
+				39957D7C18D5DD2F00014FAA /* advice@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398566B818C7CC9600DB2DB1 /* AMGDisplayMessage.m in Sources */,
 				3985668F18C7BC6000DB2DB1 /* AMGAppDelegate.m in Sources */,
 				3985668B18C7BC6000DB2DB1 /* main.m in Sources */,
 				3985669818C7BC6000DB2DB1 /* AMGViewController.m in Sources */,
@@ -318,7 +376,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -358,7 +415,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -417,7 +473,6 @@
 		398566B418C7BC6000DB2DB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AMGDisplayMessage.app/AMGDisplayMessage";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -440,7 +495,6 @@
 		398566B518C7BC6000DB2DB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AMGDisplayMessage.app/AMGDisplayMessage";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -475,6 +529,7 @@
 				398566B218C7BC6000DB2DB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		398566B318C7BC6000DB2DB1 /* Build configuration list for PBXNativeTarget "AMGDisplayMessageTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +538,7 @@
 				398566B518C7BC6000DB2DB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

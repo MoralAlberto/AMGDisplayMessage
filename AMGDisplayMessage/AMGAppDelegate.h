@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Moral. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface AMGAppDelegate : UIResponder <UIApplicationDelegate>
 
